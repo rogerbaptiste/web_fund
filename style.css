@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+}
+
+#header {
+    display: flex;
+    background-color: lightgray;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 60px;
+}
+
+#container {
+    display: flex;
+justify-content: center;
+margin-left: 50px auto;
+}
+
+.leftcol {
+    flex: 3;
+}
+
+.right_col {
+    width: min-content;
+}
+
+.box_one , .box_two {
+    border: solid black 2px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    width: 400px;
+    padding: 15px;
+}
+
+.tile {
+    padding: 10px 5px 5px 5px;
+}
+
+
+
+.likebutton {
+    background-color: rgb(233, 201, 21);
+    box-shadow: 2px 2px;
+    text-align: center;
+    width: 90px;
+    height: 35px;
+}
+
+.add {
+    background-color: rgb(151, 219, 93);
+    width: 160px;
+    height: 30px;
+    box-shadow: 2px 2px;
+}
+
+.login {
+    background-color: rgb(14, 116, 242);
+    box-shadow: black 2px 2px;
+    width: 60px;
+    height: 25px;
+    color: white;
+}
+
+.em {
+    font-style: italic;
+}
+
+.cardthree {
+    margin: 20px;
+    border: solid black 2px;
+    width: 200px;
+    height: 90px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.keywords {
+    text-decoration: underline;
+    color: blue;
+}
+
+.italics{
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
